@@ -8,15 +8,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
- * Fibonacci
- * 0   ->  0
- * 1   ->  1
- * 2   ->  1
- * 3   ->  2
- * 4   ->  3
- * 5   ->  6
- * 20  ->  6765
- * Neg ->  Error
+ * Index / Expected value
+ *  0   ->   0
+ *  1   ->   1
+ *  2   ->   1
+ *  3   ->   2
+ *  4   ->   3
+ *  5   ->   6
+ *  20  ->   6765
+ *  Neg ->   Error
  */
 
 public class FibonacciTest {

@@ -1,12 +1,20 @@
 package org.mps.Fibonacci;
 
-/*
-    Class providing a method that computes the i
-    fibonacci number
-
-    @author Cristobal Martin
+/**
+*   Class providing a method that computes the i
+*   fibonacci number
+*
+*   @author Cristobal Martin
  */
 public class Fibonacci {
+
+    /**
+     * Computes the given fibonacci number
+     * @param num index of the fibonacci number to be computed
+     * @return i fibonacci number
+     *
+     * @throws IllegalArgumentException the index cannot be negative
+     */
     public double compute(int num){
         if(num < 0){ throw new IllegalArgumentException("Number can't be negative: " + num); }
         if(num == 0){ return 0; }
