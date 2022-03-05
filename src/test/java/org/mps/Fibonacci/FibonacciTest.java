@@ -31,7 +31,55 @@ public class FibonacciTest {
     }
 
     @Test
-    public void ShouldReturnZeroIfNumberIZero(){
+    public void ShouldReturnZeroIfNumberIsZero(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturnOneIfNumberIsOne(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturnOneIfNumberIsTwo(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturnTwoIfNumberIsThree(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturnThreeIfNumberIsFour(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturnFiveIfNumberIsFive(){
+        int expectedValue = 0;
+        int obtainedValue = fib.compute(0);
+
+        assertEquals(expectedValue, obtainedValue);
+    }
+
+    @Test
+    public void ShouldReturn6765IfNumberIs20(){
         int expectedValue = 0;
         int obtainedValue = fib.compute(0);
 
