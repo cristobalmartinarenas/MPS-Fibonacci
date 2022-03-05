@@ -42,48 +42,48 @@ public class FibonacciTest {
 
     @Test
     public void ShouldReturnOneIfNumberIsOne(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 1;
+        double obtainedValue = fib.compute(1);
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void ShouldReturnOneIfNumberIsTwo(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 1;
+        double obtainedValue = fib.compute(2);
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void ShouldReturnTwoIfNumberIsThree(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 2;
+        double obtainedValue = fib.compute(3);
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void ShouldReturnThreeIfNumberIsFour(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 3;
+        double obtainedValue = fib.compute(4);
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void ShouldReturnFiveIfNumberIsFive(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 5;
+        double obtainedValue = fib.compute(5);
 
         assertEquals(expectedValue, obtainedValue);
     }
 
     @Test
     public void ShouldReturn6765IfNumberIs20(){
-        double expectedValue = 0;
-        double obtainedValue = fib.compute(0);
+        double expectedValue = 6765;
+        double obtainedValue = fib.compute(20);
 
         assertEquals(expectedValue, obtainedValue);
     }
