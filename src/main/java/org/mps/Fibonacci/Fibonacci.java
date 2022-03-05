@@ -10,7 +10,6 @@ public class Fibonacci {
     public int compute(int num){
         if(num < 0){ throw new IllegalArgumentException("Number can't be negative: " + num); }
         if(num == 0){ return 0; }
-        if(num == 1){ return 1; }
 
         int fibPre = 0;
         int fibAns = 1;
